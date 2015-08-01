@@ -405,7 +405,7 @@ class MainWidget(QWidget):
         self.current_playlist_widget.add_item_from_model(music_model)
         self.current_playlist_widget.focus_cell_by_mid(music_model['id'])
 
-        self.trayicon.showMessage(u'正在播放: ', music_model['name'])
+        self.trayicon.showMessage(u'正在播放: ほ', music_model['name'])
 
         self.state['current_mid'] = music_model['id']
 
